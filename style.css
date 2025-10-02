@@ -1,0 +1,36 @@
+body { font-family: Arial, sans-serif; text-align: center; background: #f5f5f5; }
+
+.goals, .strategies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.goal, .strategy {
+  background: #007acc;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.goal:hover, .strategy:hover {
+  background: #005a99;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 4px;
+  max-width: 90vw;
+  margin: 20px auto;
+}
+
+.cell {
+  background: #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
