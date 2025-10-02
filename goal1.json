@@ -1,0 +1,36 @@
+{
+  "title": "Mål 1 – Exempel",
+  "strategies": [
+    {
+      "label": "Strategi 1",
+      "description": "Tooltip för strategi 1",
+      "levers": [
+        { "label": "S32-1", "description": "Tooltip för lever 1" },
+        { "label": "S32-2", "description": "Tooltip för lever 2" },
+        { "label": "S32-3", "description": "Tooltip för lever 3" },
+        { "label": "S32-4", "description": "Tooltip för lever 4" },
+        { "label": "S32-5", "description": "Tooltip för lever 5" },
+        { "label": "S32-6", "description": "Tooltip för lever 6" },
+        { "label": "S32-7", "description": "Tooltip för lever 7" },
+        { "label": "S32-8", "description": "Tooltip för lever 8" },
+        { "label": "S32-9", "description": "Tooltip för lever 9" }
+      ]
+    },
+    {
+      "label": "Strategi 2",
+      "description": "Tooltip för strategi 2",
+      "levers": [
+        { "label": "S32-1", "description": "Tooltip för lever 1" },
+        { "label": "S32-2", "description": "Tooltip för lever 2" },
+        { "label": "S32-3", "description": "Tooltip för lever 3" },
+        { "label": "S32-4", "description": "Tooltip för lever 4" },
+        { "label": "S32-5", "description": "Tooltip för lever 5" },
+        { "label": "S32-6", "description": "Tooltip för lever 6" },
+        { "label": "S32-7", "description": "Tooltip för lever 7" },
+        { "label": "S32-8", "description": "Tooltip för lever 8" },
+        { "label": "S32-9", "description": "Tooltip för lever 9" }
+      ]
+    }
+    // ... upp till 9 strategier
+  ]
+}
