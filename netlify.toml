@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/internal/*"
+  to = "/login"
+  status = 302
+  force = true
+  conditions = { Role = ["member"] }
