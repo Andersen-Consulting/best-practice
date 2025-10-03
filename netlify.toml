@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/internal/*"
+  from = "*"
   to = "/protected/secret.html"
   status = 200
   force = true
