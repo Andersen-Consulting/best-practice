@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/internal/*"
-  to = "/login.html"
+  to = "/protected/secret.html"
   status = 200
   force = true
   conditions = { Role = ["member"] }
