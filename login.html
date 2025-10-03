@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Logga in – Andersen Best Practice</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Logga in</h1>
+  <p>Logga in för att få tillgång till partnersimuleringar</p>
+  <div id="netlify-login"></div>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    // Initiera Netlify Identity
+    netlifyIdentity.init();
+
+    // Efter login → skicka användaren till /internal
+    netlifyIdentity.on("login", () => {
+      document.location.href = "/internal/";
+    });
+  </script>
+</body>
+</html>
